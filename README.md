@@ -17,7 +17,7 @@ The SliverAppBar is a powerful widget in Flutter that allows you to create flexi
 
 ### Demo Video
 
-<img src="./sliver_demo/assets/SliverDemo.gif" alt="App Screenshot" height="400">
+<img src="./assets/SliverDemo.gif" alt="App Screenshot" height="400">
 
 ### Resources
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class SliverDemo extends StatelessWidget {
+  const SliverDemo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,16 @@ class HomePage extends StatelessWidget {
               floating: true,
               expandedHeight: 200,
               surfaceTintColor: Colors.teal,
-              automaticallyImplyLeading: false,
+              automaticallyImplyLeading: true,
+              leading: IconButton(
+                icon: const Icon(
+                  Icons.arrow_back,
+                  color: Colors.white,
+                ),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
               flexibleSpace: FlexibleSpaceBar(
                 collapseMode: CollapseMode.pin,
                 background: Container(

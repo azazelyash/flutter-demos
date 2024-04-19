@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sliver_demo/features/home_screen/presentation/screen/home_page.dart';
+import 'package:sliver_demo/features/home_page/presentation/screen/home_page.dart';
 
 void main() {
   runApp(const MyApp());

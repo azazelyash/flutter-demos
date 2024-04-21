@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:sliver_demo/features/sliver_demo/presentation/screen/sliver_demo.dart';
+import 'package:sliver_demo/features/random_number_effect/presentation/screen/random_number_effect.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -21,17 +21,36 @@ class HomePage extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              SizedBox(
-                width: double.infinity,
-                child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (context) => const SliverDemo(),
-                      ),
-                    );
-                  },
-                  child: const Text("Sliver Appbar Demo"),
+              Padding(
+                padding: const EdgeInsets.only(bottom: 8.0),
+                child: SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => const SliverDemo(),
+                        ),
+                      );
+                    },
+                    child: const Text("Sliver Appbar Demo"),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(bottom: 8.0),
+                child: SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => const RandomNumbersEffect(),
+                        ),
+                      );
+                    },
+                    child: const Text("Random Number Effect"),
+                  ),
                 ),
               ),
             ],

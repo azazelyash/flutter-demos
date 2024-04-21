@@ -19,6 +19,16 @@ The SliverAppBar is a powerful widget in Flutter that allows you to create flexi
 
 <img src="./assets/SliverDemo.gif" alt="App Screenshot" height="400">
 
+## <a href="https://github.com/azazelyash/flutter-demos/blob/e805b0f8a5fccb869642653c101556feefa9f184/lib/features/random_number_effect/presentation/provider/random_number_effect_provider.dart">2. Number Effect</a>
+
+### Overview
+
+Check out this cool number effect I made in Flutter! The best part? It's crafted using pure Flutter magic – no external packages or animations required! Just a few while loops and powered by Provider for seamless state management.
+
+### Demo Video
+
+<img src="./assets/NumberEffect.gif" alt="App Screenshot" height="400">
+
 ### Resources
 
 - [Flutter Documentation](https://flutter.dev/docs)

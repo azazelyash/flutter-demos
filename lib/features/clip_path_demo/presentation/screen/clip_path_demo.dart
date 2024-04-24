@@ -59,6 +59,7 @@ class MyCustomCliper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
     Path path = Path()
+      // Initial Point is at the Top Left Corner (0, 0)
       ..moveTo(0, radius)
       ..lineTo(0, size.height - radius)
       ..quadraticBezierTo(0, size.height, radius, size.height)

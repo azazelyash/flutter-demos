@@ -29,6 +29,16 @@ Check out this cool number effect I made in Flutter! The best part? It's crafted
 
 <img src="./assets/NumberEffect.gif" alt="App Screenshot" height="400">
 
+## <a href="https://github.com/azazelyash/flutter-demos/blob/cc341f3fe8905479975325eef23b02832d840fcb/lib/features/clip_path_demo/presentation/screen/clip_path_demo.dart">3. Clip Path</a>
+
+### Overview
+
+Discover how to create captivating custom shapes in Flutter using ClipPath, without relying on external packages or complex solutions. Just pure Flutter goodness!
+
+### Demo Video
+
+<img src="./assets/ClipPathDemo.png" alt="App Screenshot" height="400">
+
 ### Resources
 
 - [Flutter Documentation](https://flutter.dev/docs)

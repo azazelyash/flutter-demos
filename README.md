@@ -39,6 +39,16 @@ Discover how to create captivating custom shapes in Flutter using ClipPath, with
 
 <img src="./assets/ClipPathDemo.png" alt="App Screenshot" height="400">
 
+## <a href="https://github.com/azazelyash/flutter-demos/blob/cc341f3fe8905479975325eef23b02832d840fcb/lib/features/segmented_button_demo/presentation/screen/segmented_button_demo.dart">4. Segmented Buttons</a>
+
+### Overview
+
+Segmented buttons are a UI element with multiple buttons grouped together, allowing users to select one option at a time. They're commonly used for toggling between different modes or categories in mobile apps.
+
+### Demo Video
+
+<img src="./assets/SegmentedButtonDemo.gif" alt="App Screenshot" height="400">
+
 ### Resources
 
 - [Flutter Documentation](https://flutter.dev/docs)

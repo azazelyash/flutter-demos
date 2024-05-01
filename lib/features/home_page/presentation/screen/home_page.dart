@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sliver_demo/features/clip_path_demo/presentation/screen/clip_path_demo.dart';
+import 'package:sliver_demo/features/segmented_button_demo/presentation/screen/segmented_button_demo.dart';
 import 'package:sliver_demo/features/sliver_demo/presentation/screen/sliver_demo.dart';
 import 'package:sliver_demo/features/random_number_effect/presentation/screen/random_number_effect.dart';
 
@@ -67,6 +68,22 @@ class HomePage extends StatelessWidget {
                       );
                     },
                     child: const Text("Clip Path Demo"),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(bottom: 8.0),
+                child: SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => const SegmentedButtonDemo(),
+                        ),
+                      );
+                    },
+                    child: const Text("Segmented Buttons Demo"),
                   ),
                 ),
               ),

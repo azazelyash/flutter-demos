@@ -39,7 +39,7 @@ Discover how to create captivating custom shapes in Flutter using ClipPath, with
 
 <img src="./assets/ClipPathDemo.png" alt="App Screenshot" height="400">
 
-## <a href="https://github.com/azazelyash/flutter-demos/blob/cc341f3fe8905479975325eef23b02832d840fcb/lib/features/segmented_button_demo/presentation/screen/segmented_button_demo.dart">4. Segmented Buttons</a>
+## <a href="https://github.com/azazelyash/flutter-demos/blob/8c9f19af824378aa1c43ad9ea87c5ef28795e494/lib/features/segmented_button_demo/presentation/screen/segmented_button_demo.dart">4. Segmented Buttons</a>
 
 ### Overview
 
